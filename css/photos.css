@@ -1,0 +1,24 @@
+#photos{
+  padding: 70px 0;
+  background: #2d353e;
+  color: #aaa;
+}
+#photosb{
+  padding: 70px 0;
+  background: #2d353e;
+  color: #aaa;
+}
+#photos h5{
+  font-weight: 100 !important;
+  font-size: 22px !important;
+}
+.photo{
+  margin-bottom: 20px;
+}
+.tittle{
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+}

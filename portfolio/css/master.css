@@ -1,0 +1,357 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: "Montserrat", Arial, Sans-serif;
+}
+header{
+  height: 800px;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+}
+header:before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.6;
+}
+header .container-logo-menu{
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(255,255,255,.4);
+}
+header .logo a{
+  display: block;
+}
+.logo img{
+  vertical-align: top;
+  height: 60px;
+}
+header .menu{
+  text-align: right;
+  line-height: 50px;
+}
+header .menu a{
+  color:white;
+  margin-left: 60px;
+  font-size: 18px;
+}
+header .text{
+  color:white;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.text .first_text_line, .second_text_line{
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 300;
+}
+.text .first_text_line{
+  font-size: 35px;
+  list-style: 35px;
+  margin-bottom: 30px;
+}
+.text .second_text_line{
+  font-size: 25px;
+  list-style: 25px;
+  margin-bottom: 60px;
+}
+.text .container_buttons a{
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 12px 0;
+  font-weight: 400;
+  width: 235px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+.text .container_buttons a:hover{
+  text-decoration: none;
+  background: #fff;
+  color: orange
+}
+
+
+
+.main #features{
+  padding: 70px 0;
+}
+.main #features .tittle{
+  text-align: center;
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: black;
+  margin-bottom: 70px;
+}
+.feature{
+  text-align: center;
+}
+.feature .icon{
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+.firstLine{
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.textFeature{
+  color: black;
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+
+
+
+#photos{
+  margin-bottom: 70px;
+}
+.photo{
+  margin-bottom: 20px;
+}
+.thumb img{
+  width: 100%;
+  vertical-align: top;
+}
+.tittle{
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.blue{
+  color: #4facd3;
+}
+.orange{
+  color: #ddb146;
+}
+.phototext .text{
+  color: black;
+  line-height: 28px;
+}
+.righttext{
+  text-align: right;
+}
+
+
+
+
+#clients{
+  margin: 200px 0;
+  background: #2d353e;
+  padding: 20px 0;
+}
+#clients .tittle{
+  text-align: center;
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 50px;
+}
+#clients .client{
+  text-align: center;
+}
+#clients .client a{
+  display: block;
+  padding-bottom: 50px;
+}
+
+
+
+
+#prices{
+  margin-top: 130px;
+  height: 900px;
+  background-image: url("../img/pricesImg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  text-align: center;
+}
+#prices:before{
+  content: "";
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+}
+#prices .tittle{
+  text-align: center;
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 70px;
+  color: white;
+}
+#prices .plan{
+  background: white;
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 300;
+  padding: 50px 0;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35)
+}
+#prices .plan .name{
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+#prices .plan .price{
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+#prices .plan .features{
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+#prices .plan .features li{
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #dedede
+}
+#prices .plan .btn{
+  width: 70%;
+  font-size: 16px;
+  padding: 15px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px;
+}
+#prices .plan .green{
+  color: #86b773;
+}
+#prices .plan .btn_green{
+  border: 2px solid #86b773;
+}
+#prices .plan .btn_green:hover{
+  background: #86b773;
+  color: white;
+}
+#prices .plan .btn_blue{
+  border: 2px solid #4facd3;
+}
+#prices .plan .btn_blue:hover{
+  background: #4facd3;
+  color: white;
+}
+#prices .plan .btn_orange{
+  border: 2px solid #ddb146;
+}
+#prices .plan .btn_orange:hover{
+  background: #ddb146;
+  color: white;
+}
+.active{
+  background: #4c8dce !important;
+  color: white !important;
+}
+.active p{
+  color: white !important;
+}
+.active a{
+  color: white !important;
+  border: 2px solid white !important;
+}
+.active a:hover{
+  color: black !important;
+  background-color: white !important;
+}
+
+
+
+#reviews{
+  padding: 70px;
+}
+#reviews .tittle{
+  text-align: center;
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #4facd3;
+  margin-bottom: 70px;
+}
+.client{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.client .photo{
+  width: 25%;
+  text-align: right;
+}
+.client .photo img{
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+  border-radius: 100%;
+}
+.client .review{
+  padding: 0 10px;
+  margin-top: 20px;
+}
+.client .review .text{
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.client .review .name{
+  color: #ddb146;
+  font-size: 14px;
+}
+.clientLeft{
+  text-align: right;
+}
+
+
+
+footer .direction{
+  background: #3c4045;
+  padding: 30px 0;
+  color: white;
+  padding-bottom: 70px;
+}
+footer .direction .tittle{
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+footer .direction .street, .mail{
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+footer .direction .logo{
+  margin-top: 100px;
+}
+footer .social a{
+  padding: 10px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  font-size: 22px;
+  color: white;
+  border-radius: 100px;
+}
+
+.logoLow img{
+  height: 50px;
+}
+.icon{
+  width: 70px;
+}
+.clientimg{
+  width: 170px;
+}

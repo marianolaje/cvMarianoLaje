@@ -1,0 +1,59 @@
+
+.main #profile{
+  padding: 70px 0;
+  width: 70vw;
+  margin-left: 15vw;
+}
+
+.subtitle, .subtitleInfo, .subtitleInfo2{
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.main #profile .subtitleInfo{
+  text-align: left;
+  color: #527952;
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 400;
+}
+.main #profile .subtitleInfo2{
+  text-align: right;
+  color: #527952;
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 400;
+}
+
+.feature{
+  text-align: center;
+}
+.infoSobreMi h5{
+  color: #aaa;
+  font-family: "Montserrat", Arial, Sans-serif;
+  font-weight: 300;
+}
+#profile{
+  margin-bottom: 90px;
+}
+#profile .fotoPerfil{
+  border-radius: 100%;
+  border: 23px solid #F5F5F7;
+  width: 100%;
+  height: auto;
+}
+
+.ubicacion{
+  width: 22px;
+  height: 22px;
+  margin-left: 25px;
+}
+@media(min-width:100px) and (max-width:798px){
+  #profile .fotoPerfil{
+    margin: 30px 0px;
+  }
+}
+@media(min-width:799px) and (max-width:9299px){
+
+}

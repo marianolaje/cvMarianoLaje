@@ -1,0 +1,140 @@
+#prices{
+  height: 100%;
+  background-image: url("../img/rain.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  text-align: center;
+  padding-bottom: 100px;
+}
+#prices h5{
+  font-weight: 100 !important;
+  font-size: 22px !important;
+  color: #aaa;
+}
+
+.openImg{
+  position: absolute;
+  border-radius: 10px;
+}
+
+
+/*IMG TEXT FADE IN LEFT*/
+/*IMG TEXT FADE IN LEFT*/
+/*IMG TEXT FADE IN LEFT*/
+/*IMG TEXT FADE IN LEFT*/
+.content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.content .content-overlay{
+  background: rgba(82,121,82,0.7);
+  position: absolute;
+  left: 13px;
+  right: 15px;
+  bottom: 0px;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+/*.content-image{
+  width: 20px;
+}*/
+
+.content-details{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+/**//**/
+
+
+@media(min-width:100px) and (max-width:798px){
+  .imgPortfolio{
+    width: 100%;
+    height: 36vh;
+  }
+  .imgPortfolio img{
+    width: 100%;
+    height: 100%;
+  }
+  .portfolio2{
+    max-height: 33vh;
+    padding-top: 50px;
+    margin-bottom: 140px;
+  }
+  .openImg{
+    top: 0vw;
+    right: 4vw;
+    width: 15vw;
+    height: 15vw;
+  }
+  .content .content-overlay{
+    top: -2px;
+  }
+}
+@media(min-width:799px) and (max-width:9299px){
+  .imgPortfolio{
+    width: 100%;
+    height: 36vh;
+  }
+  .portfolio2{
+    max-height: 33vh;
+    padding-top: 50px;
+  }
+  .openImg{
+    top: 1.15vw;
+    right: 1.15vw;
+    width: 5vw;
+    height: 5vw;
+  }
+  .content .content-overlay{
+    top: 15px;
+  }
+}
